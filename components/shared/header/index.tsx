@@ -2,7 +2,7 @@ import { Ghost, GhostIcon, ShoppingCart, UserIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { APP_NAME } from "@/app/lib/constants";
+import { APP_NAME } from "@/lib/constants";
 import ModeToggle from "./mode-toggle";
 
 const Header = () => {
